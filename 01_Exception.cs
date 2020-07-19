@@ -69,7 +69,7 @@ namespace _01_Exception
                 }
                 catch (ArgumentOutOfRangeException e)
                 {
-                    Console.WriteLine("Ви  ввели правильне число, але воно за межами розмiрiв масиву.\n");
+                    Console.WriteLine("Ви  ввели вірне число, але воно за межами розмiрiв масиву.\n");
                     isProblem = true;
                 }
                 finally
